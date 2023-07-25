@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+   <item android:id="@+id/menu_camara"
+      android:icon="@drawable/baseline_photo_camera_24"
+       android:title="camara"
+       app:showAsAction="always"/>
+   <item android:id="@+id/menu_search"
+       android:icon="@drawable/search"
+
+
+       android:title="Buscar"
+       app:showAsAction="ifRoom"/>
+   <item
+       android:id="@+id/crear_nuevo_grupo"
+       android:title="Nuevo grupo"/>
+   <item
+       android:id="@+id/crear_transmision"
+       android:title="Nueva transmision"/>
+   <item
+       android:id="@+id/dispositivos_conectados"
+       android:title="Conectar dispositivo "/>
+   <item
+       android:id="@+id/mensaje_destacado"
+       android:title="Mensaje destacado"/>
+   <item
+       android:id="@+id/pagos"
+       android:title="Pagos"/>
+   <item
+       android:id="@+id/setting"
+       android:title="Ajustes"/>
+
+</menu>
